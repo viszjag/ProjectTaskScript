@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.testing.framework.tests.OpenProjectTasksTest">
+        <methods>
+          <include name="quit"/>
+          <include name="login"/>
+          <include name="testScenario"/>
+          <include name="getResult"/>
+        </methods>
+      </class> <!-- com.testing.framework.tests.OpenProjectTasksTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
